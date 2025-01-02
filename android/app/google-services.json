@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "739575227520",
+    "project_id": "renuka-travels",
+    "storage_bucket": "renuka-travels.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:739575227520:android:43fb40e0b2f8e289677265",
+        "android_client_info": {
+          "package_name": "com.example.renuka_travels"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "739575227520-s7t0orfj25ovmtqlotud3id5ut2sak43.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCdZFfl-NLajScxGcUCSPybw8QMijagNl4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "739575227520-s7t0orfj25ovmtqlotud3id5ut2sak43.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
