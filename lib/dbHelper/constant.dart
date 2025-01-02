@@ -1,0 +1,2 @@
+const MONGO_CONN_URL = "mongodb+srv://renukatoursandtravels1:renukatravels123@renukatravels.s4ya6.mongodb.net/?retryWrites=true&w=majority&appName=RenukaTravels";
+const USER_COLLECTION = "destinations";

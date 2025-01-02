@@ -1,6 +1,7 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:renuka_travels/auth/login_or_register.dart';
+import 'package:renuka_travels/dbHelper/mongodb.dart';
 import 'package:renuka_travels/firebase_options.dart';
 import 'package:renuka_travels/helper/auth_page.dart';
 import 'package:renuka_travels/pages/about_us_page.dart';
@@ -13,6 +14,7 @@ void main() async {
   await Firebase.initializeApp(
     options: DefaultFirebaseOptions.currentPlatform,
   );
+  await MongoDatabase.connect();
 
   runApp(const MyApp());
 }
