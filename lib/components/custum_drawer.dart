@@ -2,7 +2,7 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 
 class CustumDrawer extends StatelessWidget {
-  CustumDrawer({super.key});
+  const CustumDrawer({super.key});
 
   // Function to handle logout
   void logout(BuildContext context) async {
