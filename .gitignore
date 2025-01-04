@@ -1,0 +1,21 @@
+# Flutter/Dart related
+.dart_tool/
+.idea/
+.vscode/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+*.iml
+
+# Build output
+build/
+ios/Pods/
+.symlinks/
+.ios/
+.android/
+
+# Misc
+*.lock
+.DS_Store
+.pub-cache/
+.gradle/
