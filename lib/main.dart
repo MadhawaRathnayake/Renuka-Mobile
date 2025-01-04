@@ -7,6 +7,7 @@ import 'package:renuka_travels/helper/auth_page.dart';
 import 'package:renuka_travels/pages/about_us_page.dart';
 import 'package:renuka_travels/pages/destinations_page.dart';
 import 'package:renuka_travels/pages/featured_tours_page.dart';
+import 'package:renuka_travels/pages/gallery_page.dart';
 import 'package:renuka_travels/pages/home_page.dart';
 
 void main() async {
@@ -36,6 +37,7 @@ class MyApp extends StatelessWidget {
         "/destinations": (context) => Destinations(),
         "/featured_tours": (context) => Featured_Tours(),
         "/aboutus": (context) => AboutUs(),
+        "/gallery": (context) => GalleryPage(), // New gallery route
       },
     );
   }

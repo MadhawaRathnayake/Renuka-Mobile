@@ -156,6 +156,15 @@ class CustumDrawer extends StatelessWidget {
                   ),
                   _buildListTile(
                     context,
+                    icon: Icons.photo_library,
+                    title: "G A L L E R Y",
+                    onTap: () => Navigator.pushNamed(context, "/gallery"),
+                  ),
+                  SizedBox(
+                    height: kheight * 0.02,
+                  ),
+                  _buildListTile(
+                    context,
                     icon: Icons.groups_rounded,
                     title: "A B O U T  U S",
                     onTap: () => Navigator.pushNamed(context, "/aboutus"),
