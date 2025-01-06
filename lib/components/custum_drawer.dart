@@ -2,7 +2,7 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 
 class CustumDrawer extends StatelessWidget {
-  CustumDrawer({super.key});
+  const CustumDrawer({super.key});
 
   // Function to handle logout
   void logout(BuildContext context) async {
@@ -150,6 +150,15 @@ class CustumDrawer extends StatelessWidget {
                     title: "F E A T U R E D  T O U R S",
                     onTap: () =>
                         Navigator.pushNamed(context, "/featured_tours"),
+                  ),
+                  SizedBox(
+                    height: kheight * 0.02,
+                  ),
+                  _buildListTile(
+                    context,
+                    icon: Icons.photo_library,
+                    title: "G A L L E R Y",
+                    onTap: () => Navigator.pushNamed(context, "/gallery"),
                   ),
                   SizedBox(
                     height: kheight * 0.02,
