@@ -34,7 +34,7 @@ class MyApp extends StatelessWidget {
         "/loginorregister": (context) => LoginOrRegister(),
         "/home": (context) => Home(),
         "/destinations": (context) => Destinations(),
-        "/featured_tours": (context) => Featured_Tours(),
+        "/featured_tours": (context) => TourPage(),
         "/aboutus": (context) => AboutUs(),
       },
     );
